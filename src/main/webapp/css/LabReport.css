@@ -1,0 +1,71 @@
+@charset "UTF-8";
+#lab-list-section {
+    background: cadetblue;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab-list-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 1000%;
+    max-width: 2000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.lab-list-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: cadetblue;
+    color: #fff;
+}
+
+th, td {
+	line-height: 0.5; /* Adjust to reduce the vertical space in rows */
+    height: 10px; /* You can set a fixed height, but be cautious */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    font-size: 1rem;
+    text-align: center;
+}
+
+button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.update-btn {
+    background-color: cadetblue;
+    color: #fff;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}

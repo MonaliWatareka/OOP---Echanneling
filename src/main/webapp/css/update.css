@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+/* Navigation Bar */
+.nav {
+    width: 100%;
+    height: 55px;
+    background:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav-logo p {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu ul li {
+    margin-right: 20px;
+}
+
+.nav-menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a.active {
+    color:cadetblue;
+}
+
+.nav-button .btn {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button .btn:hover {
+    background-color: lightblue;
+}
+
+.wrapper {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+	width: 35%;
+    background-color: #fff;
+    padding: 40px;
+    border: rgba(0, 7, 7, 0.537) solid;
+    border-radius: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.1);
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+td {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.add-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: lightblue;
+}
+
+.delete-btn{
+	width: 100%;
+    padding: 10px;
+    background-color:  rgb(213, 68, 68);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: lightcoral;
+}
+
+
